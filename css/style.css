@@ -1,0 +1,513 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+html {
+    /* 1rem = 10px */
+    overflow-x: hidden;
+}
+body {
+    overflow-x: hidden;
+}
+/* navbar */
+.navbar-nav {
+    margin-right: 0 !important;
+    padding-right: 100px;
+}
+.navbar {
+    background-color: #014953;
+}
+.nav-item a {
+    color: #87ABB1 !important;
+}
+.nav-item a:hover {
+    color: white !important;
+}
+.nav-item {
+    padding-left: 2px;
+}
+.navbar-brand {
+    color: white !important;
+    padding-left: 100px;
+}
+
+#navbar button {
+    color: white !important;
+    margin-left: 100px;
+}
+
+/* navbar button */
+
+.btn-secondary {
+    background-color: #4651A8;
+}
+
+/* navbar end */
+
+
+/* banner start */
+.fa-life-ring {
+    font-size: 25px;
+    background: #014953;
+    color: white;
+}
+
+.img-log-two {
+    font-size: 10%;
+}
+
+.img-log-two i {
+    font-size: 25px;
+    background: #014953;
+    width: 58px;
+    height: 56px;
+    text-align: center;
+    line-height: 56px;
+    border-radius: 27px;
+    margin-right: 50px;
+}
+
+.img img-fluid {
+    width: 10px;
+}
+
+.first-title {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin-top: 35%;
+}
+
+.banner-heading-color {
+    color: #FDC863;
+    font-weight: 600;
+}
+
+.banner-p {
+    color: #87ABB1;
+    font-size: 17px;
+}
+
+.clound-storage {
+    background-color: #003E46;
+    height: 42rem;
+}
+
+/* sing-up and login button  */
+
+
+.banner {
+    background-color: #003E46;
+    height: auto;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #40b0c8;
+    border-color: #40b0c8;
+    border-radius: 14px;
+    width: 7rem;
+    height: 3rem
+}
+
+.btn-success {
+    color: #40b0c8;
+    background: transparent;
+    border-color: #40b0c8;
+    border-radius: 14px;
+    width: 7rem;
+    height: 3rem;
+    margin-left: 15px;
+}
+
+.img {
+    height: 125vh;
+    margin-top: 65px;
+    width: 77%;
+    margin-left: 8rem;
+    height: 29rem;
+}
+
+/* The stealth Advantage */
+
+
+.advantages {
+    margin-top: 8rem;
+}
+
+.adv-body {
+    margin-top: 5%;
+    background-color: #F8F7F3;
+}
+
+.advatages-color {
+    color: #D1955C;
+    font-weight: 700;
+}
+
+.view-blog {
+    display: flex;
+    justify-content: end;
+    height: auto;
+}
+
+.advatages-of-stealth {
+    text-align: center;
+    margin-top: 5rem;
+    font-weight: 700;
+}
+
+.privacy-col {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.card {
+    border: 0;
+}
+
+.fa-shield {
+    display: flex;
+    background: #FFD381;
+    border-radius: 36px;
+    width: 52px;
+    text-align: center;
+    height: 3rem;
+    margin-top: 5px;
+    align-items: center;
+    padding-top: 12px;
+    font-size: 24px;
+}
+
+.fa-notes-medical {
+    display: flex;
+    background: #85E8FF;
+    border-radius: 36px;
+    width: 52px;
+    text-align: center;
+    height: 3rem;
+    margin-top: 5px;
+    align-items: center;
+    padding-top: 12px;
+    font-size: 24px;
+}
+
+.fa-fingerprint {
+    display: flex;
+    background: #BEC5FE;
+    border-radius: 36px;
+    width: 52px;
+    text-align: center;
+    height: 3rem;
+    margin-top: 5px;
+    align-items: center;
+    padding-top: 12px;
+    font-size: 24px;
+}
+
+.img-one {
+    margin-top: 39px;
+}
+
+.services-card-body {
+    border: 0;
+    background-color: #f8f7f3;
+}
+
+.icon {
+    margin-top: 50px;
+}
+
+.card-header {
+    font-weight: 700;
+    background-color: #f8f7f3;
+    margin-top: 11px;
+    border: 0;
+}
+
+
+/* Expert pepele anlaytics */
+
+.Expert-section {
+    margin-top: 5rem;
+    width: 100%;
+    height: auto;
+}
+
+/* .expert-body{
+    width: 61%;
+} */
+.phone-img {
+    padding-right: 18vh;
+}
+
+.card-title {
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.card-text {
+    margin-top: 20px;
+}
+
+.form-check {
+    margin-top: 10px;
+}
+
+.btn-getstarted {
+    margin-top: 2rem;
+    margin-left: 0rem;
+    width: 10rem;
+    height: 43px;
+    border-radius: 14px;
+}
+
+/* semless integration */
+
+.semless {
+    background-color: #CCF5FF;
+    height: auto;
+}
+
+.seamless-title {
+    padding-top: 27px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.semless-p {
+    width: 40%;
+}
+
+.semless-center {
+    display: flex;
+    justify-content: center;
+}
+
+.seamless-int {
+    width: 32%;
+    margin-left: 32rem;
+}
+
+.btn-integration {
+    background-color: #FEC862;
+    margin-top: 29px;
+    font-weight: 700;
+    border-radius: 7px;
+}
+
+.dashboard {
+    padding-top: 47px;
+    height: auto;
+}
+
+/* semless integration end */
+
+/* Blog */
+
+.blog{
+    margin-top: 6rem; 
+}
+.blog-card{
+ padding-top: 30px;
+}
+.card-btn-postion{
+    padding-top: 22px; 
+    color: #003E46;
+}
+.blog-card-radius{
+    border-radius: 22px;
+}
+.card-btn{
+    font-weight: 600;
+    border-radius: 10px;
+    border: 0; 
+}
+.btn-one{
+   color: #125D6A; 
+}
+
+.card-btn-one-bg-color{
+ color: #73BBCC !important;   
+ background-color: #F2F9FB; ;
+}
+
+.card-btn-two-bg-color{
+    color: #D3A47A !important;
+    background-color: #FFF2E6 !important;
+   }
+   
+   .card-btn-three-bg-color{
+    color: #545CA2 !important;
+    background-color: #EFF1FF !important; ;
+   }
+.bolg-card-title{
+    font-size: 18px;
+    font-weight: 600;
+}   
+
+.login-btn{
+    background-color: white;
+    color: #73BBCC;
+    border-color: #73BBCC;
+    font-weight: 600;
+    border-radius: 10px;
+}
+/* blog end */
+
+/* open join banner start */
+
+.job-banner .container{
+    margin-top: 5rem;
+}
+.model-one{
+    padding-top: 98px;
+    background-color: #003E46;
+    height: 26rem;
+}
+
+.job-Opening-btn {
+    margin: auto;
+    height: 53px;
+    border-radius: 14px;
+    background-color: #42AFCA;
+}
+
+.team-heading {
+    font-weight: 700;
+    color: white;
+    margin-top: 8rem;
+    background-color: #003E46;
+}
+
+.job-opn-bg-color{
+    background-color: #003E46;
+}
+.white{
+    color: white;
+}
+
+.team-p{
+    font-weight: 700;
+    color: white;
+}
+
+/* footer start */
+
+.footer-section{
+    background-color: #003E46;
+    margin-top: 9%;
+    height: auto;
+}
+.from{
+  background-color: gray;
+     border-radius: 20px;
+     position: relative;
+}
+
+.footer-center{
+    padding-top: 19%;
+    height: auto;
+}
+.footer-brand {
+    margin-top: 38px;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 23px;
+}
+.sub {
+    color: white;
+    font-weight: 700;
+    margin-top: 25px;
+    font-size: 35px;
+}
+.footer-links-title{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+.career{
+    margin-top: 19px;
+}
+li a:hover{
+    color: white !important;
+}
+.btn-outline-secondary{
+    border-radius: 37px;
+    background-color:#F2F9FB;
+    border: none;
+}
+.input-filed{
+    position: relative;
+    background-color: #125D6A;
+    height: 41px;
+    border-radius: 12px;        
+}
+
+.fa-greater-than{
+position: absolute;
+}
+
+.input-group .btn {
+    position: relative;
+    z-index: 2;
+    padding-right: 11px;
+    padding-right: 15pxpx;
+    margin-right: 6px;
+    background-color: #146170 ;
+}
+
+.input-group {
+    height: 51px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+  }
+
+.input-group .form-control{
+position: relative;
+flex: 1 1 auto;
+width: 1%;
+min-width: 0;
+background: transparent;
+animation: none ;
+border: black;
+}
+
+.btn-outline-secondary {
+    border-radius: 16px;
+    color: white;
+    padding-left: 14px;
+    margin-top: 7px;
+}
+
+ 
+
+.left-side{
+    padding-left: 3%;
+}
+.page-footer{       
+    height: 20rem;
+}
+@media screen and (max-width: 768px) {
+    .footer-center{
+    text-align: center;
+    text-decoration: none;
+    }
+    .page-footer{
+        height: auto;
+    }
+  }
+
+  /* responsive navbar change on 388px */
+
+  @media screen and (max-width: 576px) {
+    .navbar-brand{
+        padding-right: 100px;
+    }
+  }
+  
